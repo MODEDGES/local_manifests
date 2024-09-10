@@ -16,6 +16,7 @@
     <project path="device/samsung/beyondx" remote="github" name="ProjectMatrixx-exynos9820/android_device_samsung_beyondx" revision="matrixx" />
     <project path="device/samsung/f62" remote="github" name="ProjectMatrixx-exynos9820/android_device_samsung_f62" revision="matrixx" />
     <project path="device/samsung/exynos9820-common" remote="github" name="ProjectMatrixx-exynos9820/android_device_samsung_exynos9820-common" revision="matrixx" />
+    <project path="kernel/samsung/exynos9820" remote="github" name="ProjectMatrixx-exynos9820/android_kernel_samsung_exynos9820" revision="kernelsu" />
 
     <!--Vendors Trees-->
     <project name="android_vendor_samsung_beyond0lte"        path="vendor/samsung/beyond0lte"        remote="dependencies"       revision="lineage-21.0" />
@@ -28,9 +29,6 @@
     <project name="android_vendor_samsung_d2x"               path="vendor/samsung/d2x"               remote="dependencies"       revision="lineage-21.0" />
     <project name="android_vendor_samsung_f62"               path="vendor/samsung/f62"               remote="dependencies"       revision="lineage-21.0" />
     <project name="android_vendor_samsung_exynos9820-common" path="vendor/samsung/exynos9820-common" remote="dependencies"       revision="lineage-21.0" />
-
-    <!--Kernel Tree-->
-    <project path="kernel/samsung/exynos9820" remote="github" name="linux4-bringup-priv/android_kernel_samsung_exynos9820"      revision="lineage-21.0" />
 
     <!-- Dependencies -->
     <project name="android_device_samsung_slsi_sepolicy"               path="device/samsung_slsi/sepolicy"            remote="dependencies"        revision="lineage-21.0" />
