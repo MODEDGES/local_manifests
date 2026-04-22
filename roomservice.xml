@@ -1,42 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <!--Remotes-->
-    <remote name="dependencies"    fetch="https://github.com/linux4-bringup-priv"/>
+    <remote name="dependencies" fetch="https://github.com/linux4-bringup-priv"/>
 
-    <!--Devices Trees-->
-    <project path="device/samsung/d2x" remote="dependencies" name="android_device_samsung_d2x" revision="lineage-23.0" />
-    <project path="device/samsung/d2s" remote="dependencies" name="android_device_samsung_d2s" revision="lineage-23.0" />
-    <project path="device/samsung/d1" remote="dependencies" name="android_device_samsung_d1" revision="lineage-23.0" />
-    <project path="device/samsung/d1x" remote="dependencies" name="android_device_samsung_d1x" revision="lineage-23.0" />
-    <project path="device/samsung/beyond2lte" remote="dependencies" name="android_device_samsung_beyond2lte" revision="lineage-23.0" />
-    <project path="device/samsung/beyond1lte" remote="dependencies" name="android_device_samsung_beyond1lte" revision="lineage-23.0" />
-    <project path="device/samsung/beyond0lte" remote="dependencies" name="android_device_samsung_beyond0lte" revision="lineage-23.0" />
-    <project path="device/samsung/beyondx" remote="dependencies" name="android_device_samsung_beyondx" revision="lineage-23.0" />
-    <project path="device/samsung/f62" remote="dependencies" name="android_device_samsung_f62" revision="lineage-23.0" />
-    <project path="device/samsung/exynos9820-common" remote="dependencies" name="android_device_samsung_exynos9820-common" revision="lineage-23.0" />
-    <project path="kernel/samsung/exynos9820" remote="dependencies" name="android_kernel_samsung_exynos9820" revision="lineage-23.0" />
+    <project path="device/samsung/d2x" remote="dependencies" name="android_device_samsung_d2x" revision="lineage-23.2" />
+    <project path="device/samsung/d2s" remote="dependencies" name="android_device_samsung_d2s" revision="lineage-23.2" />
+    <project path="device/samsung/d1" remote="dependencies" name="android_device_samsung_d1" revision="lineage-23.2" />
+    <project path="device/samsung/d1x" remote="dependencies" name="android_device_samsung_d1x" revision="lineage-23.2" />
+    <project path="device/samsung/beyond2lte" remote="dependencies" name="android_device_samsung_beyond2lte" revision="lineage-23.2" />
+    <project path="device/samsung/beyond1lte" remote="dependencies" name="android_device_samsung_beyond1lte" revision="lineage-23.2" />
+    <project path="device/samsung/beyond0lte" remote="dependencies" name="android_device_samsung_beyond0lte" revision="lineage-23.2" />
+    <project path="device/samsung/beyondx" remote="dependencies" name="android_device_samsung_beyondx" revision="lineage-23.2" />
+    <project path="device/samsung/f62" remote="dependencies" name="android_device_samsung_f62" revision="lineage-23.2" />
+    <project path="device/samsung/exynos9820-common" remote="dependencies" name="android_device_samsung_exynos9820-common" revision="lineage-23.2" />
+    <project path="kernel/samsung/exynos9820" remote="dependencies" name="android_kernel_samsung_exynos9820" revision="lineage-23.2" />
 
-    <!--Vendors Trees-->
-    <project name="android_vendor_samsung_beyond0lte"        path="vendor/samsung/beyond0lte"        remote="dependencies"       revision="lineage-23.0" />
-    <project name="android_vendor_samsung_beyond1lte"        path="vendor/samsung/beyond1lte"        remote="dependencies"       revision="lineage-23.0" />
-    <project name="android_vendor_samsung_beyond2lte"        path="vendor/samsung/beyond2lte"        remote="dependencies"       revision="lineage-23.0" />
-    <project name="android_vendor_samsung_beyondx"           path="vendor/samsung/beyondx"           remote="dependencies"       revision="lineage-23.0" />
-    <project name="android_vendor_samsung_d1"                path="vendor/samsung/d1"                remote="dependencies"       revision="lineage-23.0" />
-    <project name="android_vendor_samsung_d1x"               path="vendor/samsung/d1x"               remote="dependencies"       revision="lineage-23.0" />
-    <project name="android_vendor_samsung_d2s"               path="vendor/samsung/d2s"               remote="dependencies"       revision="lineage-23.0" />
-    <project name="android_vendor_samsung_d2x"               path="vendor/samsung/d2x"               remote="dependencies"       revision="lineage-23.0" />
-    <project name="android_vendor_samsung_f62"               path="vendor/samsung/f62"               remote="dependencies"       revision="lineage-23.0" />
-    <project name="android_vendor_samsung_exynos9820-common" path="vendor/samsung/exynos9820-common" remote="dependencies"       revision="lineage-23.0" />
+    <project name="android_vendor_samsung_beyond0lte"        path="vendor/samsung/beyond0lte"        remote="dependencies" revision="lineage-23.2" />
+    <project name="android_vendor_samsung_beyond1lte"        path="vendor/samsung/beyond1lte"        remote="dependencies" revision="lineage-23.2" />
+    <project name="android_vendor_samsung_beyond2lte"        path="vendor/samsung/beyond2lte"        remote="dependencies" revision="lineage-23.2" />
+    <project name="android_vendor_samsung_beyondx"           path="vendor/samsung/beyondx"           remote="dependencies" revision="lineage-23.2" />
+    <project name="android_vendor_samsung_d1"                path="vendor/samsung/d1"                remote="dependencies" revision="lineage-23.2" />
+    <project name="android_vendor_samsung_d1x"               path="vendor/samsung/d1x"               remote="dependencies" revision="lineage-23.2" />
+    <project name="android_vendor_samsung_d2s"               path="vendor/samsung/d2s"               remote="dependencies" revision="lineage-23.2" />
+    <project name="android_vendor_samsung_d2x"               path="vendor/samsung/d2x"               remote="dependencies" revision="lineage-23.2" />
+    <project name="android_vendor_samsung_f62"               path="vendor/samsung/f62"               remote="dependencies" revision="lineage-23.2" />
+    <project name="android_vendor_samsung_exynos9820-common" path="vendor/samsung/exynos9820-common" remote="dependencies" revision="lineage-23.2" />
 
-    <!-- Dependencies -->
-    <project name="android_device_samsung_slsi_sepolicy"               path="device/samsung_slsi/sepolicy"            remote="dependencies"        revision="lineage-23.0" />
-    <project name="android_hardware_samsung"                           path="hardware/samsung"                        remote="dependencies"        revision="lineage-23.0" />
-    <project name="android_hardware_samsung_slsi-linaro_graphics"      path="hardware/samsung_slsi-linaro/graphics"   remote="dependencies"        revision="lineage-23.0" />
-    <project name="android_hardware_samsung_slsi-linaro_config"        path="hardware/samsung_slsi-linaro/config"     remote="dependencies"        revision="lineage-23.0" />
-    <project name="android_hardware_samsung_slsi-linaro_exynos"        path="hardware/samsung_slsi-linaro/exynos"     remote="dependencies"        revision="lineage-23.0" />
-    <project name="android_hardware_samsung_slsi-linaro_openmax"       path="hardware/samsung_slsi-linaro/openmax"    remote="dependencies"        revision="lineage-23.0" />
-    <project name="android_hardware_samsung_slsi-linaro_exynos5"       path="hardware/samsung_slsi-linaro/exynos5"    remote="dependencies"        revision="lineage-23.0" />
-    <project name="android_hardware_samsung_slsi-linaro_interfaces"    path="hardware/samsung_slsi-linaro/interfaces" remote="dependencies"        revision="lineage-23.0" />
-    
+    <project name="android_device_samsung_slsi_sepolicy"            path="device/samsung_slsi/sepolicy"            remote="dependencies" revision="lineage-23.2" />
+    <project name="android_hardware_samsung"                        path="hardware/samsung"                        remote="dependencies" revision="lineage-23.2" />
+    <project name="android_hardware_samsung_slsi-linaro_graphics"   path="hardware/samsung_slsi-linaro/graphics"   remote="dependencies" revision="lineage-23.2" />
+    <project name="android_hardware_samsung_slsi-linaro_config"     path="hardware/samsung_slsi-linaro/config"     remote="dependencies" revision="lineage-23.2" />
+    <project name="android_hardware_samsung_slsi-linaro_exynos"     path="hardware/samsung_slsi-linaro/exynos"     remote="dependencies" revision="lineage-23.2" />
+    <project name="android_hardware_samsung_slsi-linaro_openmax"    path="hardware/samsung_slsi-linaro/openmax"    remote="dependencies" revision="lineage-23.2" />
+    <project name="android_hardware_samsung_slsi-linaro_exynos5"    path="hardware/samsung_slsi-linaro/exynos5"    remote="dependencies" revision="lineage-23.2" />
+    <project name="android_hardware_samsung_slsi-linaro_interfaces" path="hardware/samsung_slsi-linaro/interfaces" remote="dependencies" revision="lineage-23.2" />
+
 </manifest>
